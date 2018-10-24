@@ -114,7 +114,7 @@ describe("Luhn Validation", function(){
 		});
 
 		it("should pass American Express - 3782 822463 10005", function(){
-			var number = "378282246310005";
+			var number = "3782 822463 10005";
 			luhn.validate(number).should.be.true;
 		});
 
